@@ -15,7 +15,7 @@ License: MIT
 
 import os
 
-# get the only file ending with .dat
+# get the only file ending with IR.dat
 
 vs_files = [f for f in os.listdir('.') if f.endswith('IR.dat')]
 if len(vs_files) != 1:
