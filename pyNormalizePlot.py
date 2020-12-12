@@ -66,7 +66,7 @@ def main(inputf, outputf, reverse):
 if __name__ == "__main__":
     # parser for shell
     parser = argparse.ArgumentParser(description='Normalize a plot.')
-    parser.add_argument('--inputfile', type=str, default="IR-norm.dat",
+    parser.add_argument('--inputfile', type=str, default="IR.dat",
                         help="Input file, like a .dat, .txt ... With two columns: "
                              "Wavenumbers and Intensity. Default is 'IR.dat'")
     parser.add_argument('--outputfile', type=str, default="IR-norm.dat",
