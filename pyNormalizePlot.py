@@ -72,7 +72,7 @@ if __name__ == "__main__":
     parser.add_argument('--outputfile', type=str, default="IR-norm.dat",
                         help="Output file, default is 'IR-norm.dat'")
     parser.add_argument('--reversey', type=bool, default=False,
-                        help="Choose whether reverse the y-axis or not. Default False.")
+                        help="Choose whether to reverse the y-axis or not. Default False.")
 
     args = parser.parse_args()
     main(args.inputfile, args.outputfile, args.reversey)
