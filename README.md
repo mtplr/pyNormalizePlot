@@ -15,7 +15,7 @@ optional arguments:
                         Input file, like a .dat, .txt ... With two columns: Wavenumbers and Intensity. Default is 'IR.dat'
   --outputfile OUTPUTFILE
                         Output file, default is 'IR-norm.dat'
-  --reversey REVERSEY   Choose whether reverse the y-axis or not. Default False.
+  --reversey REVERSEY   Choose whether to reverse the y-axis or not. Default False.
   ```
 
 
